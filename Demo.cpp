@@ -11,6 +11,7 @@
 #include "Ambassador.hpp"
 #include "Captain.hpp"
 #include "Contessa.hpp"
+#include "Game.hpp"
 
 using namespace coup;
 
@@ -117,4 +118,3 @@ int main() {
 		cout << name << endl;
 	}
 }
-

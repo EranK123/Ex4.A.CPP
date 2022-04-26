@@ -4,8 +4,7 @@ namespace coup{
         private:
 
         public:
-        Assassin(Game game, string s);
+        Assassin(Game game, string name);
         void eliminate(Player p);
-
     };
 }

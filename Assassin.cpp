@@ -6,4 +6,10 @@
 using namespace std;
 using namespace coup;
 
-Assassin::Assassin(Game )
+Assassin::Assassin(Game game, string name){
+
+}
+
+void Assassin::eliminate(Player p){
+    return;
+}

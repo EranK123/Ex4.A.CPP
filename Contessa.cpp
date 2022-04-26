@@ -1,4 +1,4 @@
-#include "Ambassador.hpp"
+#include "Contessa.hpp"
 #include <iostream>
 #include <stdexcept>
 #include <vector>
@@ -6,7 +6,6 @@
 using namespace std;
 using namespace coup;
 
-
-void Ambassador::transfer(Player p1, Player p2){
+void Contessa::block(Player p){
     return;
 }

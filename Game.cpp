@@ -1,25 +1,21 @@
+#include "Game.hpp"
 #include <vector>
 #include <iostream>
+#include <string.h>
 using namespace std;
-namespace coup{
-    class Game{
-        private:
 
-        public:
-        string turn(){
+        Game::Game(){
+           
+        }
+        string Game::turn(){
             return "";
         }
-        vector<string> players(){
+        vector<string> Game::players(){
             vector<string> s;
             return s;
         }
-        void winner(){
-            return;
+        string Game::winner(){
+            return " ";
         }
 
-        Game(){
-           
-        }
-    };
-
-}
+     

@@ -5,6 +5,9 @@
 using namespace std;
 using namespace coup;
 
+Player::Player(Game game, string s){
+
+}
 void Player::income(){
     return;
 }
