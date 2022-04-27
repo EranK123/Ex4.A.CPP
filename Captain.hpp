@@ -7,7 +7,7 @@ namespace coup{
     class Captain : public Player{
         public:
         Captain(Game game, string name);
-        void block(Player p);
-        void steal(Player p);
+        void block( Player &p);
+        void steal( Player &p);
     };
 }

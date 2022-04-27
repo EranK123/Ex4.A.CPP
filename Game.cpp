@@ -5,7 +5,7 @@
 using namespace std;
 
         Game::Game(){
-           int x = 5;
+        
         }
         string Game::turn(){
             return "";

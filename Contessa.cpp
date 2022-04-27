@@ -6,9 +6,9 @@
 using namespace std;
 using namespace coup;
 
-    Contessa::Contessa(Game game, string name) : Player(game, name){}
+Contessa::Contessa(Game game, string name) : Player(game, move(name)){}
 
 
-void Contessa::block(Player p) {
-    return;
+void Contessa::block( Player &p) {
+
 }

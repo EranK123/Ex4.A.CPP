@@ -6,10 +6,10 @@
 using namespace std;
 using namespace coup;
 
-Assassin::Assassin(Game game, string name) : Player(game, name){
+Assassin::Assassin(Game game, string name) : Player(game, move(name)){
 
 }
 
-void Assassin::eliminate(Player p){
-    return;
+void Assassin::eliminate(const Player &p){
+    
 }

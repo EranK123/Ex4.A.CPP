@@ -6,20 +6,21 @@ using namespace std;
 using namespace coup;
 
 Player::Player(Game game, string name){
+    this->coin_amount = 0;
     this->game = game;
-    this->name = name;
+    this->name = move(name);
 }
 
 void Player::income(){
-    return;
+   
 }
 
 void Player::foreign_aid(){
-    return;
+   
 }
 
-void  Player::coup(Player p){
-    return;
+void Player::coup( Player &p){
+
 }
 
 int Player::coins(){

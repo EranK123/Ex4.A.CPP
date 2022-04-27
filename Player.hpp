@@ -16,8 +16,8 @@ namespace coup{
         Player(Game game, string name);
         void income();
         void foreign_aid();
-        void coup(Player p);
+        static void coup( Player &p);
         string role();
-        int coins();
+        static int coins();
     };
 }

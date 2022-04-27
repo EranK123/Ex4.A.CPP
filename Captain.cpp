@@ -5,13 +5,13 @@
 #include <string.h>
 using namespace std;
 namespace coup{
-Captain::Captain(Game game, string name) : Player(game, name){
+Captain::Captain(Game game, string name) : Player(game, move(name)){
 }
-void Captain::block(Player p){
-    return;
+void Captain::block( Player &p){
+   
 }
 
-void Captain::steal(Player p){
+void Captain::steal( Player &p){
 
 }
 }

@@ -6,11 +6,11 @@
 using namespace std;
 using namespace coup;
 
-Ambassador::Ambassador(Game game, string name) : Player(game, name){
+Ambassador::Ambassador(Game game, string name) : Player(game, move(name)){
 
 }
 
 
-void Ambassador::transfer(Player p1, Player p2){
-    return;
+void Ambassador::transfer(const Player &p1, const Player &p2){
+
 }

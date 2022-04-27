@@ -6,11 +6,11 @@
 using namespace std;
 using namespace coup;
 
-        Duke::Duke(Game game, string name) : Player(game, name){}
+        Duke::Duke(Game game, string name) : Player(game, move(name)){}
 
         void Duke::tax(){
 
         }
-        void Duke::block(Player p){
+        void Duke::block( Player &p){
 
         }
