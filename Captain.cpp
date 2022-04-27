@@ -10,4 +10,8 @@ Captain::Captain(Game game, string name) : Player(game, name){
 void Captain::block(Player p){
     return;
 }
+
+void Captain::steal(Player p){
+
+}
 }

@@ -6,7 +6,7 @@
 using namespace std;
 using namespace coup;
 
-Assassin::Assassin(Game game, string name){
+Assassin::Assassin(Game game, string name) : Player(game, name){
 
 }
 

@@ -5,7 +5,7 @@
 using namespace std;
 using namespace coup;
 
-Player::Player(Game game, string s){
+Player::Player(Game game, string name){
     this->game = game;
     this->name = name;
 }
