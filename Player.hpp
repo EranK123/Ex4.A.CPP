@@ -7,15 +7,17 @@ using namespace std;
 
 namespace coup{
     class Player{
-        private:
+        protected:
         int coin_amount;
         string name;
+        Game game;
+
         public:
         Player(Game game, string name);
         void income();
         void foreign_aid();
         void coup(Player p);
-        Player role();
+        string role();
         int coins();
     };
 }

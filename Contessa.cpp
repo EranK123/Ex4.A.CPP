@@ -6,6 +6,9 @@
 using namespace std;
 using namespace coup;
 
-void Contessa::block(Player p){
+    Contessa::Contessa(Game game, string name) : Player(game, name){}
+
+
+void Contessa::block(Player p) {
     return;
 }

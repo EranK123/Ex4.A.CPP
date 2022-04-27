@@ -6,8 +6,10 @@ using namespace std;
 using namespace coup;
 
 Player::Player(Game game, string s){
-
+    this->game = game;
+    this->name = name;
 }
+
 void Player::income(){
     return;
 }

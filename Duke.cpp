@@ -6,9 +6,8 @@
 using namespace std;
 using namespace coup;
 
-// Duke::Duke(Game game, string name){
+        Duke::Duke(Game game, string name) : Player(game, name){}
 
-// }
         void Duke::tax(){
 
         }

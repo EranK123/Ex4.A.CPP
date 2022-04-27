@@ -4,10 +4,10 @@
 #include <vector>
 #include <string.h>
 using namespace std;
-using namespace coup;
-// Captain::Captain(Game game, string name){
-
-// }
+namespace coup{
+Captain::Captain(Game game, string name) : Player(game, name){
+}
 void Captain::block(Player p){
     return;
+}
 }
