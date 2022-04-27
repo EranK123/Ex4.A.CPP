@@ -10,6 +10,6 @@ Assassin::Assassin(Game game, string name) : Player(game, move(name)){
 
 }
 
-void Assassin::eliminate(const Player &p){
+void Assassin::eliminate(Player &p){
     
 }

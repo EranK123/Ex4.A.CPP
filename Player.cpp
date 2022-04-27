@@ -19,7 +19,7 @@ void Player::foreign_aid(){
    
 }
 
-void Player::coup( Player &p){
+void Player::coup(Player &p){
 
 }
 
